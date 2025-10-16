@@ -24,9 +24,6 @@ pip install -r requirements.txt
 - 데이터는 일정한 증가와 진동 패턴을 보임  
 - `results/output_plot.png`에 결과 그래프 자동 저장  
 
-이 구조를 통해 다른 사용자가 동일한 환경에서  
-코드를 재실행해도 동일한 결과를 얻을 수 있습니다.
-
 ## 4. LICENSE
 
 ```
