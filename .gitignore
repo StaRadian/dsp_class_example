@@ -1,6 +1,65 @@
+# ===== Python 기본 =====
 __pycache__/
-.ipynb_checkpoints/
-*.pyc
-*.pyo
-.DS_Store
+*.py[cod]
+*$py.class
+
+# ===== 가상환경(venv, conda) =====
+venv/
 env/
+.venv/
+conda-env/
+env.bak/
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.ipynb_convert.py
+
+# ===== Colab 관련 =====
+.colab/
+*.colab-backup/
+
+# ===== 데이터 / 결과 파일 (옵션) =====
+# CSV, 로그, 이미지 등 자동 생성물은 제외 가능
+*.log
+*.csv
+*.tsv
+*.xlsx
+*.hdf5
+*.db
+*.sqlite
+*.pkl
+*.npy
+*.npz
+*.bak
+*.tmp
+*.png
+
+# ===== 운영체제별 =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.Trash-*
+
+# ===== IDE / 편집기 설정 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# ===== 기타 =====
+# 자동 생성 파일, 빌드 산출물 등
+build/
+dist/
+*.egg-info/
+*.egg
